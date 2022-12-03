@@ -1,5 +1,5 @@
 let btn = document.querySelector(".btn");
-btn.addEventListener("click", addComment);
+btn.addEventListener("click", checkSpam);
 let input = document.querySelector(".input");
 let comments = [];
 
