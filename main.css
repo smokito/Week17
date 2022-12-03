@@ -1,0 +1,56 @@
+body {
+  background: hsla(160, 50%, 51%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(160, 50%, 51%, 1) 0%,
+    hsla(247, 60%, 21%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(160, 50%, 51%, 1) 0%,
+    hsla(247, 60%, 21%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(160, 50%, 51%, 1) 0%,
+    hsla(247, 60%, 21%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#43C197", endColorstr="#1C1554", GradientType=1 );
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.registration {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form {
+  align-content: center;
+}
+input {
+  height: 43px;
+  box-shadow: none;
+  border: 1.5px solid #e3e6ed;
+  background-color: #f7f8fd;
+}
+input:focus {
+  border: 2px solid #5878ff;
+  outline: none;
+  background-color: white;
+}
+.btn1 {
+  padding: 0;
+  margin: 0;
+  height: 43px;
+}
